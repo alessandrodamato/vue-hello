@@ -21,6 +21,13 @@
 
     <button @click="counter++">Incremento counter: {{counter}}</button>
 
+    <p :class="{'bold' : isBold}">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro est nobis eum atque nostrum architecto veritatis suscipit assumenda incidunt veniam similique nemo sapiente fugit, doloremque eos possimus provident quia. Distinctio?
+    </p>
+    
+    <button @click="isBold = !isBold">Toggle Bold</button>
+
+
   </div>
 
   <script src="assets/js/script.js"></script>

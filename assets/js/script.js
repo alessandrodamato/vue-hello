@@ -8,6 +8,7 @@ createApp({
       immagine: 'assets/img/polli.jpg',
       clock: '00:00:00',
       counter: 0,
+      isBold: false,
     }
   },
 
@@ -25,6 +26,7 @@ createApp({
         this.printClock();
       }, 1000)
     },
+    
   },
 
   mounted(){
