@@ -7,6 +7,7 @@ createApp({
       messaggio: 'Ciao Vue JS!',
       immagine: 'assets/img/polli.jpg',
       clock: '00:00:00',
+      counter: 0,
     }
   },
 
